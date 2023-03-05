@@ -1,0 +1,16 @@
+.card {
+    border: black;
+    padding: 10px;
+    margin: 10px;
+    margin-right: 50%;
+    font-family: "Apple Symbols";
+    navbutton_background_color: #61dafb;
+    background-color: #61dafb;
+    border-width: 30px;
+    border-radius: 30px;
+}
+.Cart2{
+    padding: 10px;
+    border-bottom: 1px solid black;
+
+}

@@ -1,0 +1,32 @@
+
+{
+  "prodeucts":[
+    {
+      "id": "1",
+      "title" :"Apple Iphone 14 pro",
+      "Price" :200000
+    },
+    {
+      "id": "2",
+      "title": "Samsung Gelaxy Note 20",
+      "Price": 500200
+    },
+    {
+      "id": "3",
+      "title":"Apple Macbook",
+      "Price": 803200
+    },
+    {
+      "id": "4",
+      "title": "Apple Magic Trackpad",
+      "Price": 890520
+    },
+    {
+      "id": "5",
+      "title": "Google Pixel xl",
+      "Price": 1000000
+    }
+
+  ]
+}
+
