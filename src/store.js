@@ -4,7 +4,7 @@ import {omit} from "lodash";
 import productCard from "./Components/ProductCard/ProductCard";
 // prop drilling all childrann
 
-function cartReducer(state={items:{"1":{quantity:5}}, isCartOpena:false},action){
+function cartReducer(state={items:{}, isCartOpena:false},action){
     console.log("Action called", state,action.type)
     console.log("Reduser called", state.items)
     switch (action.type) {

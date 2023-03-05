@@ -6,7 +6,7 @@ import Cart from "./Components/Cart/Cart";
 import React, {useState} from "react";
 import AppContex from "./Components/Context/AppContex";
 
-let Total=0
+
 function App() {
 const [cart, setCart]=useState({})
   const [ShowCart,SetShowCart]=useState(false)
@@ -25,7 +25,7 @@ const [cart, setCart]=useState({})
     }
   }
   Newcart[prodeuct.id].quantity +=1;
-  Total = Newcart[prodeuct.id].CartPrice + prodeuct.Price;
+  
      // console.log("CartPrice afrer the increse ",Newcart[prodeuct.id].price )
      // console.log("CartPrice afrer the increse ",Newcart[prodeuct.id].title )
    //let kartValue =parseInt(Newcart[prodeuct.id].CartPrice);
@@ -48,7 +48,7 @@ const [cart, setCart]=useState({})
         <AppContex.Provider
             value ={{increseQantity, DecrementQuantity, cart}}>
 
-          <Count startFrom={0}/>
+         // <Count startFrom={0}/>
           <button onClick={() =>SetShowCart(!ShowCart)}>{ShowCart ?"close Cart": "showCart"} </button>
           {ShowCart?<Cart />:null}
           <ProcuctList  />
