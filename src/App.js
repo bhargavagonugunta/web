@@ -48,7 +48,7 @@ const [cart, setCart]=useState({})
         <AppContex.Provider
             value ={{increseQantity, DecrementQuantity, cart}}>
 
-         // <Count startFrom={0}/>
+          <Count startFrom={0}/>
           <button onClick={() =>SetShowCart(!ShowCart)}>{ShowCart ?"close Cart": "showCart"} </button>
           {ShowCart?<Cart />:null}
           <ProcuctList  />

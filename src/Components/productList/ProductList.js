@@ -11,6 +11,7 @@ function ProductList(){
          fetch('http://localhost:3021/prodeucts')
         .then(responsr=>{
             return responsr.json();
+          //  console.log("lococal hose db called" )
         }).then(reslt=>{
             unload(false)
              setproducts(reslt)

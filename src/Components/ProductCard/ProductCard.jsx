@@ -3,6 +3,7 @@ import styles from './ProducutCard.module.css';
 import AddToCart from "../AddCart";
 import RedexAddtoCart from "../ReduxAddtoCart";
 function ProcuctCard({ prodeuct }){
+   // console.log("Productcard id Called" prodeuct)
     return (
         <div className={styles.card}>
            <h3> {prodeuct.title}</h3>
