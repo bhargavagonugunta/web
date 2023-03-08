@@ -1,0 +1,14 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "React project",
+  "main": "index.js",
+  "scripts": {
+    "test": "just"
+  },
+  "author": "bhargava naga raviteja",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
